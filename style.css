@@ -1,0 +1,89 @@
+
+*{
+    font-family: 'BIZ UDMincho', serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+div.container{
+    width: 70%;
+    margin: 2% auto;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+ /*  */
+
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 20%;
+}
+
+header > h1{
+    color: rgb(35, 236, 35);
+    padding: 5px;
+}
+
+/*  */
+
+
+nav{
+    text-align: center;
+    background-color: rgb(35,236,35);
+    padding: 1%;
+}
+
+/*  */
+
+
+main > section{
+    margin: 1% 0;
+    color: white;
+}
+
+section span{
+    font-size: 20px;
+}
+
+div.street > h5:before{
+    content: "\27FC";
+}
+
+div.street > div{
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+div.first.street div{
+    background-color: red;
+    width: 30%;
+}
+
+div.second.street div{
+    background-color: orange;
+    width: 20%;
+}
+
+div.third.street div{
+    background-color: blue;
+    width: 50%;
+}
+
+
+
+
+
